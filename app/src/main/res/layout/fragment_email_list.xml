@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:tag="email_set"
+    android:weightSum="1"
+    android:background="@color/bg_register">
+
+
+    <EditText
+        android:layout_width="344dp"
+        android:layout_height="60dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:hint="Insert here your friends mail"
+        android:id="@+id/emailEditText"
+        android:background="@color/input_register_bg"
+        android:textColor="@color/input_register"
+        android:textColorHint="@color/input_register_hint"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:text="add"
+        android:id="@+id/aggiungiEmailButton"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/bg_login"
+        android:layout_marginBottom="5pt"
+        android:textColor="@color/white" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="294dp"
+        android:layout_weight="0.77"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:text="create group"
+        android:id="@+id/creaGruppo"
+        android:allowUndo="true"
+        android:background="@color/bg_login"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10pt"
+        android:textColor="@color/white" />
+</LinearLayout>

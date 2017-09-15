@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="15dp"
+    android:paddingTop="15dp"
+    android:background="@color/bg_register">
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:padding="0dp"
+        android:src="@drawable/group_icon"
+        android:layout_marginLeft="16dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="19dp" />
+
+    <TextView
+        android:id="@+id/desc_group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="Description"
+        android:textSize="14sp"
+        android:paddingLeft="5dp"
+        android:textStyle="italic"
+        android:layout_below="@+id/title_group"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="72dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/material_grey_100" />
+
+    <TextView
+        android:id="@+id/title_group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:gravity="center_vertical"
+        android:text="Group Name"
+        android:textSize="17sp"
+        android:paddingLeft="5dp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_alignTop="@+id/picture"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="72dp"
+        android:layout_marginRight="16dp"
+        android:paddingBottom="2dp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="time"
+        android:id="@+id/time"
+        android:textSize="10sp"
+        android:layout_below="@+id/title_group"
+        android:layout_alignRight="@+id/desc_group"
+        android:layout_alignEnd="@+id/desc_group"
+        android:textColor="@color/material_grey_100" />
+
+</RelativeLayout>

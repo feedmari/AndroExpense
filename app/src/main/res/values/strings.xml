@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">ShowDown</string>
+
+    <!-- Server autentication -->
+    <string name="server_url">http://www.federicobellini.it/ShowDown/</string>
+    <string name="server_username">federicobellini_root</string>
+    <string name="server_password">pwdsicura_root</string>
+
+    <!-- Facebook app id -->
+    <string name="facebook_app_id">1215138791830998</string>
+
+    <!-- Registration activity -->
+    <string name="errore_login">Login or password wrong!</string>
+    <string name="inserisci_tutti_dati">Insert all data.</string>
+    <string name="mail_non_valida">Mail already registered</string>
+
+    <!-- Login activity -->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+
+    <!-- ListEmailFragment -->
+    <string name="email_inserted">Email already inserted!</string>
+    <string name="email_not_forund">Email not found in database!</string>
+    <string name="insert_email">Insert the email please!</string>
+    <string name="no_email">There isn\'t any email!</string>
+    <string name="your_email">Why in the world are you trying to add yourself?</string>
+
+    <!-- CreateGroupFragment -->
+    <string name="insert_group_data">"Insert group name and description"</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Fragment create group -->
+    <string name="crea">Create group</string>
+
+    <!-- SingleGroupMenuActivity -->
+    <string name="transazioni_attive">ACTIVE TRANSACTIONS</string>
+    <string name="transazioni_chiuse">CLOSED TRANSACTIONS</string>
+    <string name="crea_debito">CREATE DEBIT</string>
+    <string name="transazioni_in_sospeso">PENDING TRANSACTIONS</string>
+    <string name="prese_in_carico">TAKEN IN CHARGE</string>
+    <string name="dettagli_gruppo">GROUP SETTINGS</string>
+
+    <!-- GenericTransactionFragment -->
+    <string name="crea_transazione">Create</string>
+    <string name="inserisci_campi">Insert all datas.</string>
+    <string name="modifica_transazione">Edit changes</string>
+    <string name="prendi_in_carico_trans">Take in charge!</string>
+    <string name="conferma_transazione">Confirm</string>
+    <string name="ha_pagato">Paid</string>
+    <string name="ok">OK</string>
+    <string name="inserisci_dati_validi">Insert valid datas.</string>
+
+    <!-- GenericListfragment -->
+    <string name="nessuna_transazione">Sorry, No transactions found.</string>
+    <string name="credito">CREDIT</string>
+    <string name="debito">DEBIT</string>
+
+</resources>

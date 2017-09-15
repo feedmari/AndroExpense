@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+
+
+
+
+        <TextView
+            android:id="@+id/listview_item_text"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:background="@color/input_register_bg"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:id="@+id/text_active_closed"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:text="Medium Text"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:background="@color/input_register_bg"
+            android:gravity="center"
+            android:textAllCaps="true" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

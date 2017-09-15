@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment1"
+    android:tag="create_group"
+    android:orientation="vertical"
+    android:baselineAligned="false"
+    android:clickable="false"
+    android:gravity="center_vertical|center_horizontal">
+
+    <EditText
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Group name"
+        android:ems="10"
+        android:id="@+id/group_name"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:background="@color/input_register_bg"
+        android:textColor="@color/input_register"
+        android:textColorHint="@color/input_register_hint"
+        android:layout_margin="10dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Group description"
+        android:ems="10"
+        android:id="@+id/group_description"
+        android:textAlignment="center"
+        android:textColorHint="@color/input_register_hint"
+        android:textColor="@color/input_register"
+        android:background="@color/input_register_bg"
+        android:layout_margin="10dp"
+        android:padding="10dp" />
+
+    <Button
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:text="create group"
+        android:id="@+id/avantiButton"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/bg_login"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white" />
+
+</LinearLayout>

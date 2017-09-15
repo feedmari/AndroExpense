@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:tag="email_set"
+    android:weightSum="1"
+    android:background="@color/bg_register">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/title_state"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_weight="0.08"
+        android:textAllCaps="true"
+        />
+
+    <ListView
+        android:id="@+id/genericListView"
+        android:layout_width="match_parent"
+        android:layout_height="294dp"
+        android:layout_weight="0.77"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>
