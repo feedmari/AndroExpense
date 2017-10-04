@@ -1,5 +1,5 @@
 # AndroExpense
-Project Mobile Develoment Course, University of Bologna. This application allow to manage a future expense, made by a group of people.
+Project Mobile Develoment Course, University of Bologna. This application allow to manage future expenses, made by a group of people.
 
 
 ## Authors
